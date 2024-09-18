@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Footer from "./footer/page"
-import CTA from "./cta/page";
+import Footer from "./components/Footer"
+import CTA from "./components/Cta";
+
 
 export default function Home() {
   return (
