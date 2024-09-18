@@ -37,3 +37,8 @@ Please delete options that are not relevant.
 
 
 
+from django.contrib import admin
+
+# Register your models here.
+# from .models import AssessmentResultHistory
+# admin.site.register(AssessmentResultHistory)
