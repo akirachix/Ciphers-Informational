@@ -13,7 +13,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <section className={`py-6 px-20 bg-gray-100 ${nunito.className}`}>
+    <section id="team" className={`py-6 px-20 bg-gray-100 ${nunito.className}`}>
       <div className="container">
         <h2 className="text-3xl font-bold text-center mb-12 text-black">Meet Our Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
