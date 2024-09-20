@@ -28,7 +28,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className={`py-16 sm:py-24 px-4 sm:px-6 bg-white text-black ${nunito.className}`}>
+    <section id="features" className={`py-16 sm:py-24 px-4 sm:px-6 bg-white text-black ${nunito.className}`}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16">Empowering Features for Caring Parents</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-16">
