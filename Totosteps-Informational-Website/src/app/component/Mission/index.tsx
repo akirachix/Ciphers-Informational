@@ -1,3 +1,6 @@
+import { Nunito } from 'next/font/google';
+const nunito = Nunito({ subsets: ['latin'] });
+
 export default function Mission() {
     return (
       <section id="mission" className="py-20 px-6 bg-[#FFF5F7]">

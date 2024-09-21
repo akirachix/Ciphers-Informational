@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link href="#home" className="block" onClick={() => setIsMenuOpen(false)}>Home</Link>
             <Link href="#features" className="block" onClick={() => setIsMenuOpen(false)}>Features</Link>
             <Link href="#mission" className="block" onClick={() => setIsMenuOpen(false)}>Mission</Link>
-            <Link href="#about" className="block" onClick={() => setIsMenuOpen(false)}>About Us</Link>
+          
           </div>
         </div>
       )}
